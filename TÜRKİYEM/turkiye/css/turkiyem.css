@@ -1,0 +1,12 @@
+/* <svg> elementinin yüksekliğinin ve genişliğinin maksimum yüzde olarak 100 olmasını sağlar. */
+.container svg {
+	max-height: 100%;
+	width: 100%;
+}
+
+ @media screen and (min-width:1000px) { /* bu satır , css tarama ekranının en az 1000px olduğu zaman için bir media query oluşturur.*/
+	.container svg {
+		height: 930px /*<svg> elementinin yüksekliğinin 930px olduğu belirtilir. */
+	}
+}
+/* Bu sayede, svg görünümünü farklı ekran boyutları için adapte etmiş oluruz.*/
